@@ -121,8 +121,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         <div class="auth-form-light text-left py-5 px-4 px-sm-5">
                             <div class="brand-logo">
                                 <span class="fw-bold " style="font-family: Sofia,sans-serif;"> <span
-                                        class="fs-1 font-effect-shadow-multiple">File</span> <span
-                                        class="text-primary fs-4 font-effect-shadow-multiple">Manager</span> </span>
+                                        class="fs-1 font-effect-shadow-multiple">Paperless</span> 
+                               <!--  <span lass="text-primary fs-4 font-effect-shadow-multiple">Manager</span>  --></span>
                             </div>
                             <h4>Hello! let's get started</h4>
                             <h6 class="fw-light">Sign up to continue.</h6>
@@ -169,19 +169,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                         value="SIGN UP">
                                 </div>
                                 <div class="my-2 d-flex justify-content-between align-items-center">
-                                    <div class="form-check">
+                                    <!-- <div class="form-check">
                                         <label class="form-check-label text-muted">
                                             <input type="checkbox" class="form-check-input">
                                             Keep me signed in
                                         </label>
-                                    </div>
-                                    <a href="#" class="auth-conn text-black">Forgot password?</a>
+                                    </div> -->
+                                    <!-- <a href="#" class="auth-conn text-black">Forgot password?</a> -->
                                 </div>
-                                <div class="mb-2">
+                                <!-- <div class="mb-2">
                                     <button type="button" class="btn btn-block btn-facebook auth-form-btn disabled">
                                         <i class="ti-facebook me-2"></i>Connect using facebook
                                     </button>
-                                </div>
+                                </div> -->
                                 <div class="text-center mt-4 fw-light">
                                     Already have an account ? <a href="index.php" class="text-primary">Login</a>
                                 </div>
